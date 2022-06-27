@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ocecer/public/templates/index.html",
   "dependencies": {
     "bootstrap": "^5.2.0-beta1",
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "python": "^0.0.4"
   }
 }
