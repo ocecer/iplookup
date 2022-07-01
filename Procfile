@@ -1,1 +1,1 @@
-web: python3 wsgi.py $PORT
+web: python3 wsgi.py $5000
