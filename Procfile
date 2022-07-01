@@ -1,1 +1,1 @@
-web: gunicorn wsgi
+python wsgi.py runserver
