@@ -9,6 +9,7 @@
     <div class="container">
         <nav class="main-nav">
             <img src="/static/assets/img/logo.png" class="main-nav__logo" alt="">
+            <!-- <img src="/iplookup/templates/assets/img/logo.png" class="main-nav__logo" alt=""> -->
             <ul class="main-nav__items">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="#">Link1</a></li>
@@ -94,33 +95,94 @@
     </div>
 </section> -->
 
+
 <section id="home__all-info" class="py-3">
     <div class="container">
         <table class="table table-strip table-hover">
             <tbody>
                 <tr>
-                    <td>{{data.version}} IP Address</td>
+                    <td>IP Address</td>
                     <td>{{data.ip}}</td>
                 </tr>
                 <tr>
-                    <td>Region</td>
-                    <td>{{data.region}}</td>
+                    <td>IP Version</td>
+                    <td>{{data.version}}</td>
+                </tr>
+                <tr>
+                    <td>ISP</td>
+                    <td>{{data.org}}</td>
                 </tr>
                 <tr>
                     <td>City</td>
                     <td>{{data.city}}</td>
                 </tr>
                 <tr>
-                    <td>Country</td>
-                    <td>{{data.country}} | {{data.country_name}}</td>
+                    <td>Postal Code</td>
+                    <td>{{data.postal}}</td>
                 </tr>
+                <tr>
+                    <td>Region</td>
+                    <td>{{data.region}}</td>
+                </tr>
+                <tr>
+                    <td>Region Code</td>
+                    <td>{{data.region_code}}</td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>{{data.country_code}} | {{data.country_name}}</td>
+                </tr>
+                <tr>
+                    <td>Country Code ISO3</td>
+                    <td>{{data.country_code_iso3}}</td>
+                </tr>
+                <tr>
+                    <td>Population</td>
+                    <td>{{data.country_population}}</td>
+                </tr>
+                <tr>
+                    <td>Capital</td>
+                    <td>{{data.country_capital}}</td>
+                </tr>
+                <tr>
+                    <td>Continent</td>
+                    <td>{{data.continent_code}}</td>
+                </tr>
+                <tr>
+                    <td>Timezone</td>
+                    <td>{{data.timezone}} | {{data.utc_offset}}</td>
+                </tr>
+                <tr>
+                    <td>Country Calling Code</td>
+                    <td>{{data.country_calling_code}}</td>
+                </tr>
+                <tr>
+                    <td>Currency</td>
+                    <td>{{data.currency}} | {{data.currency_name}}</td>
+                </tr>
+                <tr>
+                    <td>TLD</td>
+                    <td>{{data.country_tld}}</td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>{{data.languages}}</td>
+                </tr>
+                <tr>
+                    <td>Latitude</td>
+                    <td>{{data.latitude}}</td>
+                </tr>
+                <tr>
+                    <td>longitude</td>
+                    <td>{{data.longitude}}</td>
+                </tr>                
             </tbody>
         </table>
     </div>
 
 </section>
 
-    <!-- <div class="container">
+<!-- <div class="container">
         <p>{{data.version}} IP Address : {{data.ip}}</p>
         <p>City : {{data.city}}</p>
         <p>Country : {{data.country}}</p>
