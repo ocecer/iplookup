@@ -1,1 +1,1 @@
-web: gunicorn wsgi:iplookup
+web: gunicorn wsgi
