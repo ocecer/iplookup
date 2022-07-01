@@ -1,1 +1,1 @@
-web: python iplookup.py runserver http://127.0.0.1:5000
+web: python wsgi.py runserver http://127.0.0.1:5000
